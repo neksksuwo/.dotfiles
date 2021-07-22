@@ -1,0 +1,41 @@
+# key combinations
+
+## interacting with programs
+
+### open dmenu
+super + Return
+	dmenu_run
+
+###open terminal
+super + u
+	st
+
+## bspwm hotkeys
+
+### focus or send to desktop
+super + {_,shift +}{1-8}
+	bspc {desktop -f,node -d} '^{1-8}'
+
+### focus window
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+### preselect window
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+### preselect the ratio
+super + ctrl + {1-9}
+	bspc node -0.{1-9}
+
+### cancel preselection
+super + ctrl + space
+	bspc node -p cancel
+
+### resize window
+super + alt + {h,j,k,l}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+### resize window
+super + alt + shift + {h,j,k,l}
+	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
