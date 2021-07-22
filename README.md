@@ -1,6 +1,6 @@
 # dotfiles
 
-software that i use
+## software that i use
 
 1. neovim
 2. st
