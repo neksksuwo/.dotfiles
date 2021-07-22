@@ -1,4 +1,4 @@
-# dotfilesOrSomethingIDK
+# dotfiles
 
 software that i use
 
