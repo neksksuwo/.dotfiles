@@ -1,6 +1,7 @@
 xset r rate 200 100
 setxkbmap -option caps:swapescape
 xcompmgr &
-st &
+dunst &
 sxhkd &
+st &
 exec bspwm
