@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 
 cp ~/.dotfiles/personalDE/.xinitrc ~
 cp ~/.dotfiles/personalDE/sxhkdrc ~/.config/sxhkd/sxhkdrc
