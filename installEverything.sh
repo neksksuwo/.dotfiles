@@ -1,4 +1,4 @@
-# /bin/sh
+#!/bin/sh
 
 chmod +x installProgramms.sh
 ~/.dotfiles/installProgramms.sh
