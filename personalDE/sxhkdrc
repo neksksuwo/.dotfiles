@@ -3,18 +3,29 @@
 ## interacting with programs
 
 ### open dmenu
-super + Return
+super + m
 	dmenu_run
 
 ###open terminal
 super + u
 	st
+### change keyboard layout
+super + i
+	setxkbmap us
+super + o
+	setxkbmap ru
+### quit bspwm
+super + alt + enter
+	bspc quit
+### restart bspwm
+super + alt + space
+	bspc wm -r
 
 ## bspwm hotkeys
 
 ### focus or send to desktop
-super + {_,shift +}{1-8}
-	bspc {desktop -f,node -d} '^{1-8}'
+super + {_,shift +}{1-9}
+	bspc {desktop -f,node -d} '^{1-9}'
 
 ### focus window
 super + {_,shift + }{h,j,k,l}
